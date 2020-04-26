@@ -16,7 +16,7 @@ import java.util.concurrent.Executors
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
 
-abstract class Window(val title: String = "黑马程序员"
+abstract class Window(val title: String = "溜溜猪坦克大战"
                       , val icon: String = "icon/logo.png"
                       , val width: Int = 800
                       , val height: Int = 600) : Application() {
